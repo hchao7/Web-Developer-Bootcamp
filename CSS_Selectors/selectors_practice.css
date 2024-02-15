@@ -1,0 +1,50 @@
+section button {
+  background-color: lightcyan
+}
+
+button:hover {
+  background-color: lightpink;
+  color: white;
+}
+
+#main {
+  text-decoration: underline dotted;
+  color: rgb(218, 163, 172);
+}
+
+h1,
+h2 {
+  color: rgb(98, 186, 206);
+}
+
+.corgi {
+  color: goldenrod;
+}
+
+footer li,
+footer nav a {
+  color: goldenrod;
+}
+
+button+button {
+  background-color: papayawhip;
+}
+
+button {
+  background-color: gold;
+}
+
+span>a {
+  background-color: lightblue;
+  text-decoration: underline wavy;
+  text-decoration-color: peachpuff;
+  color: rgb(215, 159, 159);
+}
+
+input[placeholder="search"] {
+  background-color: lightblue;
+}
+
+section:nth-of-type(2n) {
+  background-color: lightgray;
+}
