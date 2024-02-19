@@ -1,0 +1,54 @@
+img {
+  width: 300px;
+  height: auto;
+}
+
+section p::first-letter {
+  font-size: 30px;
+  color: #CEE5F2;
+  /* background-color: #7C98B3; */
+}
+
+section p::selection {
+  background-color: #839db0;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(240, 221, 13);
+}
+
+header button:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+header button {
+  background-color: darkblue;
+  border-radius: 10%;
+  color: white;
+
+}
+
+#unique_button {
+  background-color: hotpink;
+  color: white;
+}
+
+#unique_button:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+button {
+  border-radius: 50%;
+  color: inherit;
+}
+
+body {
+  color: seagreen;
+}
+
+section {
+  color: lightseagreen;
+}
